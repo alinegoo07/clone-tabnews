@@ -8,14 +8,16 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.1.6",
+    "next": "^15.3.3",
+    "pg": "^8.16.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
     "jest": "^29.6.2",
